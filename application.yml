@@ -17,5 +17,5 @@ logging:
         netflix: FATAL
      org:
         springframework:
-           web: INFO
-           cloud: INFO
+           web: DEBUG
+           cloud: DEBUG
