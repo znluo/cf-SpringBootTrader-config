@@ -18,4 +18,4 @@ logging:
      org:
         springframework:
            web: DEBUG
-           cloud: DEBUG
+           cloud: INFO
