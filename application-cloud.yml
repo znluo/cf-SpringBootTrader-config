@@ -1,7 +1,7 @@
 spring:
   cloud:
     services:
-      registrationMethod: route
+      registrationMethod: direct
 eureka:
   instance:
      nonSecurePort: 80
