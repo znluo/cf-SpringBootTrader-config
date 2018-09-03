@@ -1,5 +1,5 @@
 ribbon:
-  IsSecure: false
+  IsSecure: true
 pivotal:
   quotesService:
     name: quotes-service
