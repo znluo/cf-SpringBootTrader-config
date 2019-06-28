@@ -2,7 +2,6 @@ spring:
   cloud:
     services:
       registrationMethod: router
-spring:
   zipkin:
     baseUrl: http://zipkin-server/
     sender:
