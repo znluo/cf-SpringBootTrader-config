@@ -2,8 +2,11 @@ spring:
   cloud:
     services:
       registrationMethod: router
+spring:
   zipkin:
-    baseUrl: "https://ozk-restless-echidna.apps.pcfone.io"
+    baseUrl: http://zipkin-server/
+    sender:
+      type: web
 eureka:
   instance:
      nonSecurePort: 80
