@@ -1,0 +1,3 @@
+spring:
+  zipkin:
+    baseUrl: "https://zipkin-boring-crocodile.cfapps.haas-427.pez.pivotal.io/"
