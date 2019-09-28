@@ -7,7 +7,7 @@ eureka:
     registryFetchIntervalSeconds: 10
 pivotal:
   summary:
-    quotes: 1
+    quotes: 3
     symbols:
       it: ORCL,IBM,INTC,AMD,HPQ,CSCO,AAPL,PVTL
       fs: JPM,C,MS,BAC,GS,WFC,BK
