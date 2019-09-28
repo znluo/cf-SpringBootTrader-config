@@ -9,8 +9,8 @@ pivotal:
   summary:
     quotes: 1
     symbols:
-      it: PVTL
-      fs: JPM
+      it: ORCL,IBM,INTC,AMD,HPQ,CSCO,AAPL,PVTL
+      fs: JPM,C,MS,BAC,GS,WFC,BK
 
 #ORCL,IBM,INTC,AMD,HPQ,CSCO,AAPL,
 #JPM,C,MS,BAC,GS,WFC,BK
