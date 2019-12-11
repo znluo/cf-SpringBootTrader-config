@@ -6,7 +6,7 @@ pivotal:
 #    quote_url: https://api.iextrading.com/1.0/stock/{symbol}/quote
 #    quotes_url: https://api.iextrading.com/1.0/stock/market/batch?symbols={symbols}&types=quote
 
-    use_cache: false
+    use_cache: true
     quote_url: http://dev.markitondemand.com/MODApis/Api/v2/Quote/json?symbol={symbol}
     quotes_url: http://dev.markitondemand.com/MODApis/Api/v2/Quote/json?symbol={symbol}
 
