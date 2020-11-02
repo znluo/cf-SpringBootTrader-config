@@ -3,7 +3,7 @@ spring:
     services:
       registrationMethod: router
   zipkin:
-    baseUrl: http://zipkin-server/
+    baseUrl: "https://myzipkin.apps.sys.tas.tkgi.haas-451.pez.vmware.com/"
     sender:
       type: web
 eureka:
