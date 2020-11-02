@@ -1,4 +1,15 @@
+eureka:
+  instance:
+    hostname: gateway-service.apps.sys.tas.tkgi.haas-451.pez.vmware.com
+    nonSecurePortEnabled: false
+    securePortEnabled: true
+    secure-port: 443
+  client:
+    serviceUrl:
+      defaultZone: https://eurekaserver.apps.sys.tas.tkgi.haas-451.pez.vmware.com//eureka/
 spring:
+  zipkin:
+    baseUrl: "https://myzipkin.apps.sys.tas.tkgi.haas-451.pez.vmware.com/"
   cloud:
     gateway:
       discovery:
