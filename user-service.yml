@@ -1,9 +1,20 @@
+eureka:
+  instance:
+    hostname: user-service.apps.sys.tas.tkgi.haas-451.pez.vmware.com
+    nonSecurePortEnabled: false
+    securePortEnabled: true
+    secure-port: 443
+  client:
+    serviceUrl:
+      defaultZone: https://eurekaserver.apps.sys.tas.tkgi.haas-451.pez.vmware.com//eureka/
 spring:
   application:
      name: user-service
   jpa:
      hibernate:
         ddl-auto: update
+  zipkin:
+    baseUrl: "https://myzipkin.apps.sys.tas.tkgi.haas-451.pez.vmware.com/"
 security:
   basic:
     enabled: false
