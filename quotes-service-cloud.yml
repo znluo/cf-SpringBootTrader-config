@@ -1,3 +1,12 @@
 spring:
   zipkin:
-    baseUrl: "https://zipkin.cfapps.haas-443.pez.pivotal.io/"
+    baseUrl: "https://myzipkin.apps.sys.tas.tkgi.haas-451.pez.vmware.com/"
+eureka:
+  instance:
+    hostname: quotes-service.apps.sys.tas.tkgi.haas-451.pez.vmware.com
+    nonSecurePortEnabled: false
+    securePortEnabled: true
+    secure-port: 443
+  client:
+    serviceUrl:
+      defaultZone: https://eurekaserver.apps.sys.tas.tkgi.haas-451.pez.vmware.com//eureka/
