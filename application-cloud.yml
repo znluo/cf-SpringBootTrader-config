@@ -9,3 +9,6 @@ spring:
 eureka:
   instance:
      nonSecurePort: 80
+management:
+  cloudfoundry:
+    skip-ssl-validation: true
